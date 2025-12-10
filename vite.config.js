@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/DesWeb-Quiz-Master/', // Sesuaikan dengan nama repository Anda
+  base: '/desweb-quiz-master/', // Sesuaikan dengan nama repository Anda
   plugins: [
     vue(),
   ],
