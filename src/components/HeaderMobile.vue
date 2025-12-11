@@ -48,6 +48,16 @@
           </li>
           <li>
             <RouterLink
+              to="/profile"
+              @click="closeMenu"
+              class="block px-6 py-4 text-gray-700 font-semibold hover:bg-gray-100 transition duration-300"
+              active-class="bg-gray-700 text-white hover:bg-gray-700"
+            >
+              Profile
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
               to="/about"
               @click="closeMenu"
               class="block px-6 py-4 text-gray-700 font-semibold hover:bg-gray-100 transition duration-300"

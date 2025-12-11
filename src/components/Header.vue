@@ -22,6 +22,15 @@
           </li>
           <li>
             <RouterLink
+              to="/profile"
+              class="px-4 py-8 rounded text-gray-700 font-semibold transition duration-300 ease-in-out hover:bg-gray-700 hover:text-white"
+              active-class="bg-gray-700 text-white"
+            >
+              Profile
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
               to="/about"
               class="px-4 py-8 rounded text-gray-700 font-semibold transition duration-300 ease-in-out hover:bg-gray-700 hover:text-white"
               active-class="bg-gray-700 text-white"
